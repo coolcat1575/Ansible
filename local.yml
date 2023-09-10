@@ -5,5 +5,8 @@
 
   tasks:
   - name: install htop
-    package: 
-      name: htop
+    package:
+      name:
+        - htop
+        - tmux
+        - vim-nox
