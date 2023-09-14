@@ -11,7 +11,7 @@
         - htop
         - tmux
         - vim-nox
-
+        - python3-pip
   - name: copy wallpaper file
     copy:
       src: files/wallpaper.jpg
