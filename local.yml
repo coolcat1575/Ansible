@@ -13,6 +13,10 @@
         - vim-nox
         - python3-pip
         
+  - name: Install bottle python package
+    ansible.builtin.pip:
+    name: psutil
+
   - name: copy wallpaper file
     copy:
       src: files/wallpaper.jpg
