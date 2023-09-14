@@ -47,12 +47,12 @@
       key: "/org/gnome/desktop/notifications/show-in-lock-screen"
       value: "false"
  
-  # - name: copy custom .bashrc file
-  #   copy:
-  #     src: files/bashrc
-  #     dest: /home/jay/.bashrc
-  #     owner: pierre
-  #     group: pierre
+  - name: copy custom .bashrc file
+    copy:
+      src: files/bashrc
+      dest: /home/pierre/.bashrc
+      owner: pierre
+      group: pierre
  
   - name: add ansible user
     user:
