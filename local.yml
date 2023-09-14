@@ -17,8 +17,10 @@
   - name: Install multiple packages
     community.general.flatpak:
       name:
-        - caprine
-        - gimp
+        - com.sindresorhus.Caprine
+        - org.gimp.GIMP
+        - com.visualstudio.code
+        - com.bitwarden.desktop
 
   - name: copy wallpaper file
     copy:
