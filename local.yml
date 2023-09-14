@@ -13,16 +13,12 @@
         - vim-nox
         - python3-pip
 
-  - name: Install or update pip
-    community.general.easy_install:
-      name: pip
-      state: latest
   # - name: Install psutil python package
   #   ansible.builtin.pip:
   #     name: psutil
  # - name: install pyhon modules
-  # - pip:
-  #   name: psutil 
+  - pip:
+      name: psutil 
 
   - name: copy wallpaper file
     copy:
