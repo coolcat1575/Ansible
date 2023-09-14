@@ -5,7 +5,7 @@
 
   tasks:
 
-  - name: install packages
+  - name: Install APT packages
     package:
       name:
         - htop
@@ -14,7 +14,7 @@
         - python3-pip
         - python3-psutil
 
-  - name: Install multiple packages
+  - name: Install Flatpack packages
     community.general.flatpak:
       name:
         - com.sindresorhus.Caprine
