@@ -38,19 +38,19 @@
       group: root
  
   - name: set wallpaper
-    become_user: $USER
+    become_user: "$USER"
     dconf:
       key: "/org/gnome/desktop/background/picture-uri"
       value: "'file:///usr/share/backgrounds/ansible-wallpaper.jpg'"
  
   - name: set wallpaper position
-    become_user: $USER
+    become_user: "$USER"
     dconf:
       key: "/org/gnome/desktop/background/picture-options"
       value: "'zoom'"
  
   - name: disable lock screen notifications
-    become_user: $USER
+    become_user: "$USER"
     dconf:
       key: "/org/gnome/desktop/notifications/show-in-lock-screen"
       value: "false"
@@ -59,8 +59,8 @@
     copy:
       src: files/bashrc
       dest: /home/pierre/.bashrc
-      owner: $USER
-      group: $USER
+      owner: "$USER"
+      group: "$USER"
  
   - name: add ansible user
     user:
