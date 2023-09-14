@@ -12,13 +12,14 @@
         - tmux
         - vim-nox
         - python3-pip
+        - python3-psutil
 
   # - name: Install psutil python package
   #   ansible.builtin.pip:
   #     name: psutil
  # - name: install pyhon modules
-  - pip:
-      name: psutil 
+  # - pip:
+  #     name: psutil 
 
   - name: copy wallpaper file
     copy:
