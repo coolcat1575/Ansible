@@ -37,6 +37,7 @@
         - net.lutris.Lutris
         - org.winehq.Wine
         - org.libreoffice.LibreOffice
+        - io.gitlab.librewolf-community
 
   - name: copy wallpaper file
     copy:
