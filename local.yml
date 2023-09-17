@@ -34,6 +34,7 @@
         - com.bitwarden.desktop
         - com.valvesoftware.Steam
         - org.standardnotes.standardnotes
+        - net.lutris.Lutris
 
   - name: copy wallpaper file
     copy:
