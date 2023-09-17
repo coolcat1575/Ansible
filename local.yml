@@ -35,6 +35,7 @@
         - com.valvesoftware.Steam
         - org.standardnotes.standardnotes
         - net.lutris.Lutris
+        - org.winehq.Wine
 
   - name: copy wallpaper file
     copy:
