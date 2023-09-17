@@ -36,6 +36,7 @@
         - org.standardnotes.standardnotes
         - net.lutris.Lutris
         - org.winehq.Wine
+        - org.libreoffice.LibreOffice
 
   - name: copy wallpaper file
     copy:
