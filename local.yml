@@ -38,6 +38,7 @@
         - org.winehq.Wine
         - org.libreoffice.LibreOffice
         - io.gitlab.librewolf-community
+        - org.shotcut.Shotcut
 
   - name: copy wallpaper file
     copy:
